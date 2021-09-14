@@ -1,0 +1,16 @@
+{
+  "name": "@haradashinya/sample-npm-module-0219",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "typescript": "*"
+  }
+}
